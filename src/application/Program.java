@@ -1,11 +1,12 @@
 package application;
 import views.Home;
+import views.Login;
 
 public class Program {
     public static void main(String[] args) {
-        System.out.println("Olá");
-        Home tela = new Home();
-        tela.setVisible(true);
+        Login telaLogin = new Login();
+        telaLogin.setVisible(true);
+        
     }
     
 }
